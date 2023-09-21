@@ -64,12 +64,7 @@ const imageSrc=undefined
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#595959'
     }}> Industry.AI </span>
-
     }
-    <img
-      style={{"object-fit":"contain","height":"auto","width":"70px"}}
-      src='./BLP_Industry.AI.png'
-  />
     
           
     </span>
