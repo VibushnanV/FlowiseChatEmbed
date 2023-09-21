@@ -53,9 +53,9 @@ const imageSrc=undefined
       "background-color": props.badgeBackgroundColor ?? '#595959'
     }}>Powered by 
     {
-    !imageSrc? <img
+    imageSrc? <img
     style={{"object-fit":"contain","height":"auto","width":"70px"}}
-    src='./BLP_Industry.AI.png'
+    src={imageSrc}
 />: <span  style= {{
       "font-size": '13px',
       position: 'absolute',
