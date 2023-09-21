@@ -1,5 +1,4 @@
 import { onCleanup, onMount } from 'solid-js'
-
 type Props = {
   botContainer: HTMLDivElement | undefined
   poweredByTextColor?: string
@@ -51,18 +50,14 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by
-      <a
-        ref={liteBadge}
-        href={'https://flowiseai.com'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> Flowise</span>
-      </a>
+    }}>Powered by 
+    <img
+      style={{"object-fit":"contain","height":"auto","width":"70px"}}
+      src='./../assets/images/BLP_Industry.AI.png'
+      alt='Industry.AI'
+  />
+    
+          
     </span>
   )
 }
