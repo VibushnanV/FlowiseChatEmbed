@@ -44,10 +44,9 @@ const imageSrc=undefined
     <span style={{
       "font-size": '13px',
       position: 'absolute',
-      bottom: '-14px',
+      bottom: '0px',
       padding: '10px',
       margin: 'auto',
-      display: 'flex',
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#595959'
@@ -58,11 +57,8 @@ const imageSrc=undefined
     src={imageSrc}
 />: <span  style= {{
       "font-size": '13px',
-      position: 'absolute',
-      bottom: '-14px',
       "text-align": 'center',
-      color: props.poweredByTextColor ?? defaultTextColor,
-      "background-color": props.badgeBackgroundColor ?? '#595959'
+      color: "#2a7cf5",
     }}> Industry.AI </span>
     }
     
