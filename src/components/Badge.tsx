@@ -49,7 +49,7 @@ const imageSrc=undefined
       margin: 'auto',
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
-      "background-color": props.badgeBackgroundColor ?? '#595959'
+      "background-color": props.badgeBackgroundColor ?? '#fff'
     }}>Powered by 
     {
     imageSrc? <img
